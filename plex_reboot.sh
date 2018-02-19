@@ -2,7 +2,7 @@
   
 #pull the latest status file from git
 status=/Users/zachary/Documents/plex_status/status.dat
-git fetach --all
+git fetch --all
 git reset --hard origin/master
 
 grep -e "reboot" $status
