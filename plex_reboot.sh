@@ -10,6 +10,7 @@ RC=$?
 
 if [[ $RC -eq 0 ]]; then
         killAll "Plex Media Server"
+        sleep 10
         open /Applications/Plex\ Media\ Server.app
 
         now=`date`
