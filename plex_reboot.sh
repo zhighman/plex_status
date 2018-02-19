@@ -15,6 +15,7 @@ if [[ $RC -eq 0 ]]; then
 
         now=`date`
         echo $now > $status
+        git add $status
         git commit -m "rebooted PMS"
         git push -u origin master
 fi
