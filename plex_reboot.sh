@@ -2,6 +2,8 @@
   
 #pull the latest status file from git
 status=/Users/zachary/Documents/plex_status/status.dat
+cd /Users/zachary/Documents/plex_status
+
 git fetch --all
 git reset --hard origin/master
 
